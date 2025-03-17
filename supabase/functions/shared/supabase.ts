@@ -1,5 +1,7 @@
 // supabase/functions/shared/supabase.ts
-import { createClient } from '@supabase/supabase-js';
+// Thay dòng này:
+
+import { createClient } from 'https://esm.sh/@supabase/supabase-js@2.31.0';
 
 // Các biến môi trường được cấu hình trong Supabase Dashboard
 // Tất cả các khóa được lưu trữ an toàn trong Edge Functions
